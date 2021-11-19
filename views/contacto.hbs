@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/assets/css/bootstrap.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <section class="container">
+    <h1> Contacto</h1>
+        <form action="/send-email" method="post">
+        <div class="mb-3">
+            <input type="text" class="form-control" name ="nombre" placeholder="Ingresá tu nombre">
+        </div> 
+        <div class="mb-3">
+            <input type="text" class="form-control" name ="apellido" placeholder="Ingresá tu apellido">
+        </div> 
+        <div class="mb-3">
+        <input type="email" class="form-control" name="email" placeholder="Ingresá tu email">
+        </div> 
+            <div class="mb-3">
+            <input type="text" class="form-control" name ="asunto" placeholder="Escribí tu asunto">
+        </div> 
+        <div class="mb-3">
+        <textarea name="mensaje" id="" class="form-control" cols="30" rows="10"></textarea>
+        </div>
+        <button class="btn btn-primary"> Enviar</button>
+    </form>
+    </section>
+</body>
+
+<script src="/assets/js/jquery-3.3.1.js"></script>
+<script src="/assets/js/bootstrap.js"></script>
+
+</html>

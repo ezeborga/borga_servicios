@@ -1,0 +1,57 @@
+body{
+    background-image: url(/assets/img/img-traveling-4323759.svg);
+}
+
+.container {
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	width: 400px;
+	max-width: 100%;
+
+}
+
+.titulo {
+	padding: 40px;
+    background-color: cadetblue;
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+form{
+    padding: 40px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-1%);
+}
+
+.formulario label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+
+.formulario input{
+    width: 320px;
+    padding: 10px;
+    font-size: 10px;
+    color: black;
+    margin-bottom: 4px;
+    text-align: left;
+}
+
+.button {
+    color: black;
+    background-color: none;
+    background: none;
+    border-radius: 10px;
+    font-size: 50px;
+
+}
