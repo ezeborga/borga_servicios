@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{titulo}}</title>
 
-    <link rel="stylesheet" href="/css/proyectos.css">
+    <link rel="stylesheet" href="../assets/css/proyectos.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,16 +17,21 @@
 </head>
 <body>
 
-    <section id="facilities">
+    
+      <div class="jumbotron jumbotron-fluid" style="background: #CDBBAB;">
         <div class="container">
-            <div class="titulo">
-                <h1>Proyectos</h1>
-                <p>Arquitetura - Instalacion electrica - Cloacas - Agua fria y caliente - Gas - Estructura - Computo y Presupuesto - Habilitaciones municipales</p>
+            
+                <h1 class="display-3">Proyectos</h1>
+                <p class="lead">Arquitetura - Instalacion electrica - Cloacas - Agua fria y caliente - Gas - Estructura - Computo y Presupuesto - Habilitaciones municipales</p>
 
-            </div>
+        </div>
+      </div>
+      
+       <section id="facilities">
 
-            <section class="container justify justify-content-center p-5">
+            <section class="container justify justify-content-center p-5" style="background-image: url('/assets/img/repeating-triangles.svg');">
                 <div class="row lg justify-content-center ">
+                
                   <div class="col-sm-12 col-md-6 col-lg-4">
                     
                       <div class="card">
@@ -35,24 +40,28 @@
                         <h5 class="card-title">Proyecto Calle 16</h5>
                         <p class="card-text p-4 m-4 mr-4">San clemente del tuyu</p>
                         <a href="proy-calle-16" class="btn btn-dark">Ver mas</a>
+                        </div>
+                      </div>
+
+                  </div>
+          
+                  <div class="col-sm-12 col-md-6 col-lg-4">
+            
+                    <div class="card">
+                      <img class="card-img-top img-80" src="./assets/img/arq-3d.jpg"  alt="...">
+                      <div class="card-body text-center">
+                        <h5 class="card-title">Proyecto calle 30 y 5</h5>
+                        <p class="card-text p-4 m-4 mr-4">San clemente del tuyu</p>
+                        <a href="proy-calle30y5" class="btn btn-dark">Ver mas</a>
                       </div>
                     </div>
+
                   </div>
-          
-                <div class="col-sm-12 col-md-6 col-lg-4">
-          
-                  <div class="card">
-                    <img class="card-img-top img-80" src="./assets/img/arq-3d.jpg"  alt="...">
-                    <div class="card-body text-center">
-                      <h5 class="card-title">Proyecto calle 30 y 5</h5>
-                      <p class="card-text p-4 m-4 mr-4">San clemente del tuyu</p>
-                      <a href="proy-calle30y5" class="btn btn-dark">Ver mas</a>
-                    </div>
-                  </div>
+
                 </div>
         
             </section>
-        </div>
+       
 
 
         
@@ -60,6 +69,14 @@
 
 
     </section>
+
+
+
+<style>
+    body {
+  background-image: url("../assets/img/countours.png");
+}
+</style>
 
     
     

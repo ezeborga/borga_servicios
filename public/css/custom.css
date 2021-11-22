@@ -74,12 +74,13 @@ button {
 }*/
 
 .footer-basic {
+    display: flex;
     padding:15px 0;
-
     color: black;
   }
   
   .footer-basic ul {
+    display: flex;
     padding:0;
     list-style:none;
     text-align:center;
@@ -89,6 +90,7 @@ button {
   }
   
   .footer-basic li {
+    display: flex;
     padding:0 10px;
   }
   

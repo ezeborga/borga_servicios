@@ -1,10 +1,11 @@
 * {
     margin: 0px;
     padding: 0px;
-    font-family: 'Heebo', sans-serif;
+    /*font-family: 'Heebo', sans-serif;*/
 }
 
-#facilities{
+
+/*#facilities{
     background-color: blanchedalmond;
     padding: 30px 0px;
 }
@@ -21,9 +22,9 @@
 }
 .titulo p{
     font-size: 18px;
-}
+}*/
 .card-body{
-    box-shadow: 0 0 20px 7px coral;
+    box-shadow: 0 0 20px 7px #e6ddd6;
 }
 
 .card{
@@ -31,7 +32,7 @@
 }
 
 .card-body a{
-    color: rgb(13, 95, 95);
+    color: #CDBBAB;
     text-decoration: none;
     font-size: 15;
     margin-top: auto;
@@ -44,9 +45,9 @@
 }
 
 
-<!-- footer-->
 
-.footer-basic {
+
+/*.footer-basic {
     padding:15px 0;
 
     color: black;
@@ -96,4 +97,4 @@
   
   .footer-basic .social > a:hover {
     opacity:0.9;
-  }
+  }*/
