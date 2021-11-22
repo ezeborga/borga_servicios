@@ -120,8 +120,8 @@ router.get('/', (req, res) => {
     );
   });
 
-  router.get('/form', (req, res) => {
-    res.render('form', {
+  router.get('/contacto', (req, res) => {
+    res.render('contacto', {
           nombre: 'borga',
           titulo: 'Ingenieria Civil'
     }
